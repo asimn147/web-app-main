@@ -1,0 +1,48 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body tabindex="-1">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" href="/"
+          >Lego Collection</a
+        >
+      </div>
+
+      <div class="navbar-center hidden sm:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="active" href="/about">About</a></li>
+          <li>
+            <details>
+              <summary>Theme</summary>
+              <ul class="p-2 bg-base-100 right-0">
+                <li><a href="/lego/sets?theme=technic">Technic</a></li>
+                <li>
+                  <a href="/lego/sets?theme=classic town">Classic Town</a>
+                </li>
+                <li>
+                  <a href="/lego/sets?theme=supplemental">Supplemental</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="main-404">
+      <h1 class="header-404">404</h1>
+      <p><%= message %></p>
+    </div>
+  </body>
+</html>
